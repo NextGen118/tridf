@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitfdc93c9020f56cc24e83f0ce727c1cbb
+class ComposerStaticInite2200011aa42b33bf4e80ae704f60ff8
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -329,8 +329,8 @@ class ComposerStaticInitfdc93c9020f56cc24e83f0ce727c1cbb
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -529,7 +529,19 @@ class ComposerStaticInitfdc93c9020f56cc24e83f0ce727c1cbb
         'App\\Http\\Controllers\\EquipmentSaleDetailsController' => __DIR__ . '/../..' . '/app/Http/Controllers/EquipmentSaleDetailsController.php',
         'App\\Http\\Controllers\\EquipmentSalesController' => __DIR__ . '/../..' . '/app/Http/Controllers/EquipmentSalesController.php',
         'App\\Http\\Controllers\\EquipmentsController' => __DIR__ . '/../..' . '/app/Http/Controllers/EquipmentsController.php',
+        'App\\Http\\Controllers\\IgmCarriersController' => __DIR__ . '/../..' . '/app/Http/Controllers/IgmCarriersController.php',
+        'App\\Http\\Controllers\\IgmContainersController' => __DIR__ . '/../..' . '/app/Http/Controllers/IgmContainersController.php',
+        'App\\Http\\Controllers\\IgmIndiaCargoInfosController' => __DIR__ . '/../..' . '/app/Http/Controllers/IgmIndiaCargoInfosController.php',
+        'App\\Http\\Controllers\\IgmIndiaCfsController' => __DIR__ . '/../..' . '/app/Http/Controllers/IgmIndiaCfsController.php',
+        'App\\Http\\Controllers\\IgmIndiaContainersController' => __DIR__ . '/../..' . '/app/Http/Controllers/IgmIndiaContainersController.php',
+        'App\\Http\\Controllers\\IgmIndiaSubCodesController' => __DIR__ . '/../..' . '/app/Http/Controllers/IgmIndiaSubCodesController.php',
+        'App\\Http\\Controllers\\IgmIndiaTerminalsController' => __DIR__ . '/../..' . '/app/Http/Controllers/IgmIndiaTerminalsController.php',
         'App\\Http\\Controllers\\IgmIndiaVoyagesController' => __DIR__ . '/../..' . '/app/Http/Controllers/IgmIndiaVoyagesController.php',
+        'App\\Http\\Controllers\\IgmIndiaWeightsController' => __DIR__ . '/../..' . '/app/Http/Controllers/IgmIndiaWeightsController.php',
+        'App\\Http\\Controllers\\IgmIndiasController' => __DIR__ . '/../..' . '/app/Http/Controllers/IgmIndiasController.php',
+        'App\\Http\\Controllers\\IgmLankaDoContainersController' => __DIR__ . '/../..' . '/app/Http/Controllers/IgmLankaDoContainersController.php',
+        'App\\Http\\Controllers\\IgmLankaDosController' => __DIR__ . '/../..' . '/app/Http/Controllers/IgmLankaDosController.php',
+        'App\\Http\\Controllers\\IgmsController' => __DIR__ . '/../..' . '/app/Http/Controllers/IgmsController.php',
         'App\\Http\\Controllers\\InvoiceChargesController' => __DIR__ . '/../..' . '/app/Http/Controllers/InvoiceChargesController.php',
         'App\\Http\\Controllers\\InvoicesController' => __DIR__ . '/../..' . '/app/Http/Controllers/InvoicesController.php',
         'App\\Http\\Controllers\\LoginLogsController' => __DIR__ . '/../..' . '/app/Http/Controllers/LoginLogsController.php',
@@ -596,7 +608,19 @@ class ComposerStaticInitfdc93c9020f56cc24e83f0ce727c1cbb
         'App\\Models\\equipment_sale_details' => __DIR__ . '/../..' . '/app/Models/equipment_sale_details.php',
         'App\\Models\\equipment_sales' => __DIR__ . '/../..' . '/app/Models/equipment_sales.php',
         'App\\Models\\equipments' => __DIR__ . '/../..' . '/app/Models/equipments.php',
+        'App\\Models\\igm_carriers' => __DIR__ . '/../..' . '/app/Models/igm_carriers.php',
+        'App\\Models\\igm_containers' => __DIR__ . '/../..' . '/app/Models/igm_containers.php',
+        'App\\Models\\igm_india_cargo_infos' => __DIR__ . '/../..' . '/app/Models/igm_india_cargo_infos.php',
+        'App\\Models\\igm_india_cfs' => __DIR__ . '/../..' . '/app/Models/igm_india_cfs.php',
+        'App\\Models\\igm_india_containers' => __DIR__ . '/../..' . '/app/Models/igm_india_containers.php',
+        'App\\Models\\igm_india_sub_codes' => __DIR__ . '/../..' . '/app/Models/igm_india_sub_codes.php',
+        'App\\Models\\igm_india_terminals' => __DIR__ . '/../..' . '/app/Models/igm_india_terminals.php',
         'App\\Models\\igm_india_voyages' => __DIR__ . '/../..' . '/app/Models/igm_india_voyages.php',
+        'App\\Models\\igm_india_weights' => __DIR__ . '/../..' . '/app/Models/igm_india_weights.php',
+        'App\\Models\\igm_indias' => __DIR__ . '/../..' . '/app/Models/igm_indias.php',
+        'App\\Models\\igm_lanka_do_containers' => __DIR__ . '/../..' . '/app/Models/igm_lanka_do_containers.php',
+        'App\\Models\\igm_lanka_dos' => __DIR__ . '/../..' . '/app/Models/igm_lanka_dos.php',
+        'App\\Models\\igms' => __DIR__ . '/../..' . '/app/Models/igms.php',
         'App\\Models\\invoice_charges' => __DIR__ . '/../..' . '/app/Models/invoice_charges.php',
         'App\\Models\\invoices' => __DIR__ . '/../..' . '/app/Models/invoices.php',
         'App\\Models\\login_logs' => __DIR__ . '/../..' . '/app/Models/login_logs.php',
@@ -5688,10 +5712,10 @@ class ComposerStaticInitfdc93c9020f56cc24e83f0ce727c1cbb
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitfdc93c9020f56cc24e83f0ce727c1cbb::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitfdc93c9020f56cc24e83f0ce727c1cbb::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitfdc93c9020f56cc24e83f0ce727c1cbb::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInitfdc93c9020f56cc24e83f0ce727c1cbb::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInite2200011aa42b33bf4e80ae704f60ff8::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInite2200011aa42b33bf4e80ae704f60ff8::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInite2200011aa42b33bf4e80ae704f60ff8::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInite2200011aa42b33bf4e80ae704f60ff8::$classMap;
 
         }, null, ClassLoader::class);
     }
